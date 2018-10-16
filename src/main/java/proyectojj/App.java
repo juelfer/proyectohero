@@ -1,5 +1,8 @@
 package proyectojj;
 
+import proyectojj.modelos.Hero;
+import proyectojj.modelos.Meta;
+
 import java.util.Scanner;
 
 public class App 
@@ -51,7 +54,7 @@ public class App
 
             if(villain.str>superhero.def)
             {
-                System.out.println("¡Bam! "+villain.name+" le arrea un soplamocos a "+superhero.name+" de "+(villain.str - superhero.def)*1 +" puntos de daño");
+                System.out.println("¡Bam! "+villain.name+" le arrea un soplamocos a "+superhero.name+" de "+(villain.str - superhero.def)*2 +" puntos de daño");
                 superhero.hp -= ((villain.str - superhero.def)*3);
             }
             else

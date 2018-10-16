@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+import proyectojj.modelos.Hero;
+import proyectojj.modelos.Meta;
 
 /**
  * Unit test for simple App.
@@ -12,7 +14,7 @@ public class AppTest {
     @Test
     public void shouldCreateAMetaObject() {
         Meta metahuman = new Meta("Spiderman",20, 18, 70, 3, 10, 20);
-        assertEquals(true, metahuman instanceof Meta);
+        assertTrue("true",metahuman instanceof Meta);
     }
 
     @Test
@@ -117,7 +119,7 @@ public class AppTest {
     @Test
     public void shouldCreateAHero() {
         Hero superhero = new Hero ("Spiderman",20,20,100,5,20,20,100,1000);
-        assertEquals(true, superhero instanceof Hero);
+        assertTrue("true", superhero instanceof Hero);
     }
 
     @Test

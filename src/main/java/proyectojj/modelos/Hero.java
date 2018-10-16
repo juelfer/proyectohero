@@ -1,8 +1,10 @@
-package proyectojj;
+package proyectojj.modelos;
+
+import proyectojj.modelos.Meta;
 
 public class Hero extends Meta {
-    int exp = 0;
-    int nextlv = 100;
+    public int exp = 0;
+    public int nextlv = 100;
 
     public Hero (){
         super();
