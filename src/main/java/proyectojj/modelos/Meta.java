@@ -1,13 +1,13 @@
-package proyectojj;
+package proyectojj.modelos;
 
 public class Meta {
-    protected String name = "Capitán Obvio";
-    protected int str = 10;
-    protected int def = 10;
-    protected int hp = 50;
-    protected int lv = 1;
-    protected int crit = 5;
-    protected int ev = 5;
+    public String name = "Capitán Obvio";
+    public int str = 10;
+    public int def = 10;
+    public int hp = 50;
+    public int lv = 1;
+    public int crit = 5;
+    public int ev = 5;
 
 //    Getters + Setters
 
